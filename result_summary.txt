@@ -1,0 +1,25 @@
+Dataset: EEG Motor Movement/Imagery Dataset
+Subject: S001
+Run: R04
+
+Number of EEG Channels: 64
+Number of Epochs: 15
+
+Feature Extraction:
+- Mean
+- Standard Deviation
+
+Classifier:
+Support Vector Machine (RBF Kernel)
+
+Feature Shape:
+(15, 128)
+
+Accuracy:
+33%
+
+Evaluation Metrics:
+Precision
+Recall
+F1-Score
+Confusion Matrix
